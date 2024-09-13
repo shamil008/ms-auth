@@ -1,0 +1,14 @@
+server:
+  port: 8080
+client:
+  urls:
+    ms-user: http://localhost:8081
+
+redis:
+  server:
+    urls: redis://localhost:6379
+
+token:
+  expiration:
+    access-token: 15
+    refresh-token: 21600
